@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.logo-text a {
+  text-decoration: none;
+}
+
+.home-container {
+  max-width: 1236px;
+  margin: 0 auto;
+  /* border: 1px solid #000; */
+  margin-top: 160px;
+}
+
+.home-container-title {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 72px;
+  line-height: 76px;
+  color: #44444e;
+}
+
+.hero-title span {
+  color: #1faa59;
+}
+
+.hero-description {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #44444e;
+}
+
+.hero-btn {
+  border: none;
+  background-color: #1faa59;
+  color: #fff;
+  padding: 10px 24px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.post-container-outer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.post-container-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1faa59;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.post-container-title-text {
+  font-size: 18px;
+  color: #fff;
+}
+
+.post-btn {
+  border: none;
+  background-color: #000;
+  padding: 6px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.news-section {
+  margin-top: 80px;
+}
+
+.news-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-left: 3px solid #1faa59;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+form label {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+form input {
+  width: 500px;
+}
